@@ -34,9 +34,10 @@ void pop(Stack &S);
 Stack reverseStack(Stack S);
 void printStack(Stack S);
 
-void searchPath(int maze[19][21][2], Stack &S, int dimensi1, int dimensi2);
-void printMaze(int maze[19][21][2]);
-void printPath(int maze[19][21][2], Stack S);
+void searchPath(int maze[51][51][2], Stack &S, int dimensi1, int dimensi2);
+void printMaze(int maze[51][51][2]);
+void printPath(int maze[51][51][2], Stack S);
+void printArray(int maze[51][51][2]);
 void chooseMenu(int input);
 
 int chooseMenu();
